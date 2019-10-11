@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Todo List</h1>
+
+  <div>
+    <button onClick="handlers.displayTodos()">Display Todos</button>
+    <button onClick="handlers.toggleAll()">Toggle All</button>
+  </div>
+  
+  <div>
+    <button onClick="handlers.addTodo()">Add</button>
+    <input id="addTodoTextInput" type="text">
+  </div>
+  
+  <div>
+    <button onClick="handlers.changeTodo()">Change</button>
+    <input id="changeTodoPositionInput" type="number">
+    <input id="changeTodoTextInput" type="text">
+  </div>
+  
+  <div>
+    <button onClick="handlers.deleteTodo()">Delete</button>
+    <input id="deleteTodoPositionInput" type="number">
+  </div>
+  
+  <div>
+    <button onClick="handlers.toggleCompleted()">Toggle Completed</button>
+    <input id="toggleCompletedPositionInput" type="number">
+  </div>
+  
+  
+  
+  
+  <script src="v8Inputs.js"></script>
+</body>
+</html>
